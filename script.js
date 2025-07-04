@@ -19,7 +19,7 @@ function addTask() {
 
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
-        e.targer.classList.toggle("cheked");
+        e.target.classList.toggle("cheked");
         saveData();
     }
     else if(e.target.tagName === "SPAN"){
